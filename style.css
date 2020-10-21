@@ -1,0 +1,111 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.page-header {
+    background-image: url("img/dandelion.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 30em;
+}
+
+#titulo {
+    color: white;
+    font-size: 3.5em;
+    padding: 1.7em;
+    text-align: center;
+    align-self: center;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: grey;
+    width: 100;
+    font-size: 1.2em;
+}
+
+.navbar-nav>li {
+    font-weight: bolder;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+
+.btn {
+    margin: 1rem, 0;
+}
+
+.modal fade {
+    margin-top: 1rem;
+}
+
+#form2,
+#form3 {
+    height: auto;
+    width: 100%;
+}
+
+#menuLateral {
+    margin-top: 1.5rem;
+    color: grey;
+    font-weight: bolder;
+}
+
+.container {
+    display: block;
+}
+
+.container .nav-link {
+    color: grey;
+}
+
+.container .nav-link:hover {
+    text-emphasis-color: black;
+}
+
+#main {
+    padding-top: 0.8rem;
+    padding-bottom: 4rem;
+}
+
+.comentarios {
+    margin: 1rem 0;
+}
+
+.form_comentarios textarea {
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    border: 1px solid;
+}
+
+.form_comentarios .btn {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.5rem;
+}
+
+img {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link {
+    color: grey;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 2rem;
+    margin: 2rem 1rem;
+}
