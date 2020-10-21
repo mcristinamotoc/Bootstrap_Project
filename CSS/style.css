@@ -11,7 +11,7 @@
     height: 30em;
 }
 
-#titulo {
+#title {
     color: white;
     font-size: 3.5em;
     padding: 1.7em;
@@ -69,11 +69,11 @@
     padding-bottom: 4rem;
 }
 
-.comentarios {
+.comments {
     margin: 1rem 0;
 }
 
-.form_comentarios textarea {
+.form_comments textarea {
     width: 100%;
     height: auto;
     font-family: 'Roboto', sans-serif;
@@ -81,7 +81,7 @@
     border: 1px solid;
 }
 
-.form_comentarios .btn {
+.form_comments .btn {
     font-family: 'Roboto', sans-serif;
     margin-top: 0.5rem;
 }
